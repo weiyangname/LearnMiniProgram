@@ -1,0 +1,10 @@
+/* pages/home/home.wxss */
+.main{
+  display: flex;
+  flex-direction: column;
+}
+.title{
+  font-size: 30px;
+  color:red;
+  text-align: center;
+}

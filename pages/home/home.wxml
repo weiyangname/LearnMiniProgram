@@ -1,0 +1,5 @@
+<!--pages/home/home.wxml-->
+<view class="main">
+  <text class="title">你好呀</text>
+  <button size="mini">按钮</button>
+</view>
