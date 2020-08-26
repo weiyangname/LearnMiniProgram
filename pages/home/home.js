@@ -7,7 +7,7 @@ Page({
       { id: 101, name: 'kobe', age: 30 },
       { id: 102, name: 'james', age: 28 },
       { id: 103, name: 'curry', age: 32 },
-      { id: 104, name: 'why', age: 18 },
+      { id: 104, name: 'why', age: 18 }
     ],
     counter: 0
   },
