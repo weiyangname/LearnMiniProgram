@@ -18,7 +18,7 @@ Page({
   },
   handerSubtraction() {
     this.setData({
-      counter: this.data.counter + 1
+      counter: this.data.counter - 1
     })
   }
 })
