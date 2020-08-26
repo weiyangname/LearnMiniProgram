@@ -1,7 +1,34 @@
 {
   "pages": [
     "pages/home/home",
-    "pages/about/about"
+    "pages/about/about",
+    "pages/profile/profile",
+    "pages/category/category"
   ],
-  "sitemapLocation": "sitemap65.json"
+  "sitemapLocation": "sitemap.json",
+  "window": {
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "我的小程序",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "selectedColor": "ff5777",
+    "list": [
+      {
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "assets/tabbar/home.png",
+      "selectedIconPath": "assets/tabbar/home2.png"
+    },
+    {
+      "pagePath": "pages/category/category",
+      "text": "商品分类",
+      "iconPath": "assets/tabbar/fenlei.png",
+      "selectedIconPath": "assets/tabbar/fenlei2.png"
+    }
+  ]
+  }
 }
